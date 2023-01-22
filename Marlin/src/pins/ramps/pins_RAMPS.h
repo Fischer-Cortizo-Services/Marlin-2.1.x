@@ -135,7 +135,7 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                     32
+  #define Z_MIN_PROBE_PIN                     19 //Z_MIN_PROBE_PIN: 32 Z_MAX_PIN:19
 #endif
 
 //
@@ -286,7 +286,7 @@
 #endif
 
 #ifndef PS_ON_PIN
-  #define PS_ON_PIN                           12
+  #define PS_ON_PIN                           12 // PS_ON_PIN: 12 AUX-2: 40
 #endif
 
 #if ENABLED(CASE_LIGHT_ENABLE) && !defined(CASE_LIGHT_PIN) && !defined(SPINDLE_LASER_ENA_PIN)
